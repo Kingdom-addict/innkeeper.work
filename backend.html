@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Innkeeper.work | BACKEND WEB DEVELOPMENT</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="tel:+2348098468885"><strong>Call</strong> +234 (0) 809-846-8885</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://web.facebook.com/innkeeper.work/"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.linkedin.com/company/innkeeper-work"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/innkeeper.work__"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div> 
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li> -->
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="https://learn.innkeeper.work/login/index.php" >login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="https://learn.innkeeper.work/login/index.php">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="https://innkeeper.work"><img src="images/innkeeper-transparent.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation" style="font-size: 16px;">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="https://innkeeper.work">HOME</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="https://innkeeper.work/about">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://innkeeper.work/tech-academy">Tech Academy</a>
+                <a class="dropdown-item" href="https://innkeeper.work/business-support-academy">Business Support Academy</a>
+                <a class="dropdown-item" href="https://innkeeper.work/employability">Employability/soft Skills</a>
+                <a class="dropdown-item" href="https://innkeeper.work/entrepreneurship">Entrepreneurship</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="https://innkeeper.work/contact">CONTACT</a>
+            </li>
+           </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">Programming and Web Development</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted">Backend Development</li>
+        </ul>
+        <p class="text-lighten" style="text-align: justify;">The backend code communicates with the server and distributes information or data to the users. As a result, the backend code is responsible for the application as well as the web server and database.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- Backend Development -->
+        <img src="images/courses/backend-1.png" class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- course info -->
+    <div class="row align-items-center mb-5">
+      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h2>Backend Development</h2>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-book text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">COURSES</h6>
+                <p class="mb-0">08 Weeks</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">DURATION</h6>
+                <p class="mb-0">70 Hours</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">FEE</h6>
+                <p class="mb-0">&#8358;150,000.00</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <a href="https://paystack.com/pay/innkeeper-backend-development" target="_blank" class="btn btn-primary">Apply now</a>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4">
+        <h3>About Course</h3>
+        <p style="text-align: justify;">This is a hybrid learning that blends self-paced and instructor-led learning for 8 weeks. The training takes place for a period of 6 weeks and a 2 weeks practical with live projects. 
+          Areas to be covered include PHP, Node Js, and Express Js. Applicants are encouraged to pay in instalments if full payment cannot be made. 
+          Instructors are seasoned industry-based and can be reached for post-class activities.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h3 class="mb-3">Requirements</h3>
+        <div class="col-12 px-0">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-styled">
+                <li>Good and functioning Laptop. </li>
+                <li>Reliable Internet connection.</li>
+                <li>Ability to operate a computer.</li>
+                <li>Google/Yahoo account.</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-styled">
+                <li>Domain name and hosting server.</li>
+                <li>Flash drive or external hard drive.</li>
+                <li>Code editor software (e.g. notepad++, visual studio code, sublime text etc).</li>
+                <li>Basic knowledge of Microsoft appliations is useful.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4">
+        <h3 class="mb-3">How to Apply</h3>
+        <ul class="list-styled">
+          <li>Read about the course content and indicate interest. </li>
+          <li>Select a payment/enrolment method <strong><a href="#payment-options" target="_blank">HERE</a>.</strong></li>
+          <li>Except you pay the stipulated amount, every other course enrolment method will require the admin to permit you to class.</li>
+          <li>Alternatively, you can sign up to begin class <strong><a href="https://learn.innkeeper.work" target="_blank">HERE</a>.</strong></li>
+          <li>Go to your e-mail and complete registration via the link that will be sent to you.</li>
+          <li>Then from your dashboard, click all courses to display the list of courses available according to academy, then request for your desired course.</li>
+        </ul>
+      </div>
+      <div class="col-12 mb-5" id="payment-options">
+        <h3>Available Enrolment Options</h3>
+        <p style="text-align: justify;">Our flexible payment system is designed to aid candidate's enrolment process. This is to remove any barrier to learning your desired course.</p>
+        <p>The options are:</p>
+        <li>Click to <strong><a href="https://paystack.com/pay/innkeeper-backend-development" target="_blank">Pay Now</a></strong></li>
+        <p>NB: Instalmental payment is accepted (T & C Apply)</p>
+        <li>Apply for Student loan <strong><a href="#">HERE</a></strong></li><br>
+        <li>Apply via our training bond <strong><a href="#">HERE</a></strong></li><br>
+        <li>Apply for scholarship <strong><a href="#">HERE</a></strong></li>
+      </div>
+      <!-- teacher 
+      <div class="col-12">
+        <h5 class="mb-3">Teacher</h5>
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0">
+            <img class="mr-4 img-fluid" src="images/teachers/adamu-1.png" alt="Teacher">
+            <div class="media-body">
+              <h4 class="mt-0">AbdulRahman Adamu</h4>
+              Backend Developer
+            </div>
+          </div>
+          <div class="social-link">
+            <h6 class="d-none d-sm-block">Social Link</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-linkedin"></i></a></li>
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>-->
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+<!-- related course -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Related Courses</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- course item -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/frontend.png" alt="tech academy">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><a class="text-color" href="tech-academy.html">Tech Academy</a></li>
+            </ul>
+            <a href="https://innkeeper.work/frontend">
+              <h4 class="card-title">Frontend Development</h4>
+            </a>
+            <p class="card-text mb-4" style="text-align: justify;"> Front-end web development, sometimes referred to as client-side development, 
+              is the process of creating HTML, CSS, and JavaScript for a website or Web application so that a user can see and interact with it directly.</p>
+            <a href="https://innkeeper.work/frontend" class="btn btn-primary btn-sm">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!-- course item -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/full stack.png" alt="tech academy">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><a class="text-color" href="tech-academy.html">Tech Academy</a></li>
+            </ul>
+            <a href="https://innkeeper.work/fullstack">
+              <h4 class="card-title">Full Stack Development</h4>
+            </a>
+            <p class="card-text mb-4" style="text-align: justify;"> Full stack web developers can create full-fledged web applications and websites. 
+              They are responsible for the frontend, backend, database, and debugging of online applications or websites.</p>
+            <a href="https://innkeeper.work/fullstack" class="btn btn-primary btn-sm">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!-- course item -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/python II.jpg" alt="tech academy">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><a class="text-color" href="tech-academy.html">Tech Academy</a></li>
+            </ul>
+            <a href="#">
+              <h4 class="card-title">Programming Essentials in Python I & II</h4>
+            </a>
+            <p class="card-text mb-4"> In this course, you'll gain the knowledge and skills to design, develop and improve multi-module computer applications coded in Python.</p>
+            <a href="https://innkeeper.work/python" class="btn btn-primary btn-sm">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /related course -->
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- footer content -->
+<div class="footer bg-footer section border-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <!-- logo -->
+        <a class="logo-footer" href="https://innkeeper.work"><img class="img-fluid mb-4" src="images/innkeeper-transparent.png" alt="logo"></a>
+        <ul class="list-unstyled">
+          <li class="mb-2">The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.</li>
+          <li class="mb-2">+234 (0) 809-846-8885</li>
+          <li class="mb-2">info@innkeeper.work</li>
+        </ul>
+      </div>
+      <!-- company -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5">MENU</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="https://innkeeper.work">Home</a></li>
+          <li class="mb-3"><a class="text-color" href="https://innkeeper.work/about">About Us</a></li>
+          <li class="mb-3"><a class="text-color" href="#">Events</a></li>
+          <li class="mb-3"><a class="text-color" href="https://innkeeper.work/contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- links -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5">COURSES</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="courses.html">Tech Academy</a></li>
+          <li class="mb-3 active"><a class="text-color" href="https://innkeeper.work/business-support-academy">Business Support Academy</a></li>
+          <li class="mb-3"><a class="text-color" href="https://innkeeper.work/employability">Employability/Soft Skills</a></li>
+          <li class="mb-3"><a class="text-color" href="https://innkeeper.work/entrepreneurship">Entrepreneurship</a></li>
+        </ul>
+      </div>
+      <!--Download on Mobile Devices-->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5">MOBILE DOWNLOAD </h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile"><img src="/images/google-playstore.png" alt="Google-playstore-logo"></a></li>
+          <li class="mb-3"><a class="text-color" href="https://itunes.apple.com/app/moodle-mobile/id633359593?mt=8"><img src="/images/itunes-app-store-logo.png" alt="IoS-mobile-logo"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- copyright -->
+<div class="copyright py-4 bg-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7 text-sm-left text-center">
+        <p class="mb-0">Copyright
+          <script>
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+          </script> 
+          © innkeeper.work | <a href="https://innkeeper.work/privacypolicy"> Privacy policy</a></p>
+      </div>
+      <div class="col-sm-5 text-sm-right text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="d-inline-block p-2" href="https://web.facebook.com/innkeeper.work/"><i class="ti-facebook text-primary"></i></a></li>
+          <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
+          <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.linkedin.com/company/innkeeper-work"><i class="ti-linkedin text-primary"></i></a></li>
+          <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.instagram.com/innkeeper.work__"><i class="ti-instagram text-primary"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/60d9d94465b7290ac6385141/1f99fhdsj';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+
+</body>
+</html>

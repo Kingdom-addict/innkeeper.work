@@ -1,0 +1,189 @@
+/* FAQ */
+.faqq{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3 ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+.show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.faq-toggle {
+background-color: transparent;
+border: 0;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+padding: 0;
+position: absolute;
+top: 30px;
+right: 30px;
+height: 30px;
+width: 30px;
+}
+
+.faq-toggle:focus {
+outline: 0;
+}
+
+.faq-toggle .fa-times {
+display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+color: #fff;
+display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+display: none;
+}
+
+.faq.active .faq-toggle {
+background-color: #9fa4a8;
+}
+
+/*FAQ section ends*/
+
+<!-- FAQ section -->
+<div style="padding-bottom: 100px;">
+<h3 class="faqq">Frequently Asked Questions</h3>
+    <div class="faq-container">
+      <div class="faq active">
+        <h6 class="faq-title">How do I register?</h6>
+        <p class="faq-text">Click the register option on the top of menu options from the website to create
+          an account. Then login to your dashboard to complete registration.
+        </p>
+        <button class="faq-toggle">
+         <span class="show">+</span>
+        </button>
+      </div>
+      <div class="faq">
+        <h6 class="faq-title">
+         Are classes virtual or physical? 
+        </h6>
+        <p class="faq-text">Classes are hybrid i.e. both virtual and physical.</p>
+        <button class="faq-toggle">
+        <span class="show">+</span>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h6 class="faq-title">
+         Do I need to have any previous knowledge or experience before coming to learn?
+        </h6>
+        <p class="faq-text">All we need is your willingness to learn and a basic understanding of what the course is about.</p>
+        <button class="faq-toggle">
+         <span class="show">+</span>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h6 class="faq-title">
+          How do I payback after getting a job?
+        </h6>
+        <p class="faq-text">You are required to make complete payment in 3 months into your job or internship.</p>
+        <button class="faq-toggle">
+          <span class="show">+</span>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h6 class="faq-title">How much is initial payment?</h6>
+        <p class="faq-text">The initial payment for learn now, pay-as-you-earn option is 20% of the actual training cost.</p>
+        <button class="faq-toggle">
+          <span class="show">+</span>
+        </button>
+      </div>
+      <div class="faq">
+        <h6 class="faq-title">Will I be issued the certificate upon graduation or upon successful completion of tuition?</h6>
+        <p class="faq-text">The certificate will be issued upon graduation from cohort.</p>
+        <button class="faq-toggle">
+          <span class="show">+</span>
+        </button>
+      </div>
+      <div class="faq">
+        <h6 class="faq-title">What happens if I choose to withdraw from innkeeper acaemy a few months into the training?</h6>
+        <p class="faq-text">Depending on how far the training session has commenced, you'd be required to make some payments of the training cost.</p>
+        <button class="faq-toggle">
+          <span class="show">+</span>
+        </button>
+      </div>
+      <div class="faq">
+        <h6 class="faq-title">Can I pay tuition upfront?</h6>
+        <p class="faq-text">Yes, you can.</p>
+        <button class="faq-toggle">
+          <span class="show">+</span>
+        </button>
+      </div>
+    </div>
+  </div>
+<!-- FAQ section ends -->
+
