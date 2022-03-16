@@ -234,6 +234,10 @@ h6, .h6 {
   text-decoration: line-through;
 }
 
+.btn-cost-price:hover{
+  text-decoration: line-through;
+}
+
 body {
   background-color: #fff;
   overflow-x: hidden;
